@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="78" started-at="2022-03-14T12:11:09 IST" finished-at="2022-03-14T12:11:09 IST">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestNGExamplePractice.TC3()[pri:3, instance:FirstPackage.TestNGExamplePractice@a7e666]" name="TC3" class="FirstPackage.TestNGExamplePractice"/>
+        <method signature="TestNGExamplePractice.TC4()[pri:4, instance:FirstPackage.TestNGExamplePractice@a7e666]" name="TC4" class="FirstPackage.TestNGExamplePractice"/>
+        <method signature="TestNGExamplePractice.TC1()[pri:1, instance:FirstPackage.TestNGExamplePractice@a7e666]" name="TC1" class="FirstPackage.TestNGExamplePractice"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TestNGExamplePractice.TC4()[pri:4, instance:FirstPackage.TestNGExamplePractice@a7e666]" name="TC4" class="FirstPackage.TestNGExamplePractice"/>
+        <method signature="TestNGExamplePractice.TC1()[pri:1, instance:FirstPackage.TestNGExamplePractice@a7e666]" name="TC1" class="FirstPackage.TestNGExamplePractice"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TestNGExamplePractice.TC1()[pri:1, instance:FirstPackage.TestNGExamplePractice@a7e666]" name="TC1" class="FirstPackage.TestNGExamplePractice"/>
+        <method signature="TestNGExamplePractice.TC2()[pri:2, instance:FirstPackage.TestNGExamplePractice@a7e666]" name="TC2" class="FirstPackage.TestNGExamplePractice"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="78" started-at="2022-03-14T12:11:09 IST" finished-at="2022-03-14T12:11:09 IST">
+      <class name="FirstPackage.TestNGExamplePractice">
+        <test-method status="PASS" signature="TC2()[pri:2, instance:FirstPackage.TestNGExamplePractice@a7e666]" name="TC2" duration-ms="0" started-at="2022-03-14T12:11:09 IST" description="verify userneme and password with invalid credential" finished-at="2022-03-14T12:11:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2 -->
+        <test-method status="PASS" signature="TC1()[pri:1, instance:FirstPackage.TestNGExamplePractice@a7e666]" name="TC1" duration-ms="0" started-at="2022-03-14T12:11:09 IST" description="verify username and password with valid credential" depends-on-methods="FirstPackage.TestNGExamplePractice.TC4" finished-at="2022-03-14T12:11:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1 -->
+        <test-method status="PASS" signature="TC3()[pri:3, instance:FirstPackage.TestNGExamplePractice@a7e666]" name="TC3" duration-ms="0" started-at="2022-03-14T12:11:09 IST" description="verify password should be in display encrypted format" finished-at="2022-03-14T12:11:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3 -->
+        <test-method status="PASS" signature="TC4()[pri:4, instance:FirstPackage.TestNGExamplePractice@a7e666]" name="TC4" duration-ms="0" started-at="2022-03-14T12:11:09 IST" description="verify username with valid credential" finished-at="2022-03-14T12:11:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4 -->
+      </class> <!-- FirstPackage.TestNGExamplePractice -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
